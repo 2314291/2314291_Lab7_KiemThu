@@ -1,0 +1,5 @@
+﻿* 64d024b - 2314291 - Doan Hong Tien (Fri Oct 16 16:46:26 2026 +0700): Revert "Break the build: syntax error"
+* 2dc6194 - 2314291 - Doan Hong Tien (Fri Oct 16 16:45:31 2026 +0700): Break the build: syntax error
+* e637cc4 - 2314291 - Doan Hong Tien (Fri Oct 16 16:44:26 2026 +0700): Revert "Remove mock tests to trigger quality gate"
+* f4ab168 - 2314291 - Doan Hong Tien (Fri Oct 16 16:41:54 2026 +0700): Remove mock tests to trigger quality gate
+* 93c7d44 - 2314291 - Doan Hong Tien (Fri Oct 16 16:36:52 2026 +0700): Initial commit: YummyApp
