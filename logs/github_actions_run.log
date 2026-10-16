@@ -1,0 +1,264 @@
+2026-10-16T09:49:52.2762520Z Current runner version: '2.337.0'
+2026-10-16T09:49:52.2787263Z ##[group]Runner Image Provisioner
+2026-10-16T09:49:52.2788175Z Hosted Compute Agent
+2026-10-16T09:49:52.2789202Z Version: 20261012.601
+2026-10-16T09:49:52.2789856Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+2026-10-16T09:49:52.2790622Z Build Date: 2026-10-12T17:48:21Z
+2026-10-16T09:49:52.2791329Z Worker ID: {ac448f8e-c140-4a2d-be27-5cef23ccc086}
+2026-10-16T09:49:52.2792044Z Region: westus
+2026-10-16T09:49:52.2792669Z Cloud: Azure
+2026-10-16T09:49:52.2793213Z ##[endgroup]
+2026-10-16T09:49:52.2794799Z ##[group]Operating System
+2026-10-16T09:49:52.2795551Z Ubuntu
+2026-10-16T09:49:52.2796085Z 24.04.5
+2026-10-16T09:49:52.2796726Z LTS
+2026-10-16T09:49:52.2797245Z ##[endgroup]
+2026-10-16T09:49:52.2797785Z ##[group]Runner Image
+2026-10-16T09:49:52.2798683Z Image: ubuntu-24.04
+2026-10-16T09:49:52.2799287Z Version: 20261012.334.1
+2026-10-16T09:49:52.2800636Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-16T09:49:52.2802210Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+2026-10-16T09:49:52.2803270Z ##[endgroup]
+2026-10-16T09:49:52.2804542Z ##[group]GITHUB_TOKEN Permissions
+2026-10-16T09:49:52.2806705Z Contents: read
+2026-10-16T09:49:52.2807319Z Metadata: read
+2026-10-16T09:49:52.2808460Z Packages: read
+2026-10-16T09:49:52.2809086Z ##[endgroup]
+2026-10-16T09:49:52.2811237Z Secret source: Actions
+2026-10-16T09:49:52.2812328Z Cache mode: write
+2026-10-16T09:49:52.2813015Z Prepare workflow directory
+2026-10-16T09:49:52.3146789Z Prepare all required actions
+2026-10-16T09:49:52.3195103Z Getting action download info
+2026-10-16T09:49:52.6750004Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-16T09:49:52.7915267Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-10-16T09:49:52.8670169Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-16T09:49:53.0792352Z Complete job name: mobile-test-job
+2026-10-16T09:49:53.1565135Z ##[group]Run actions/checkout@v4
+2026-10-16T09:49:53.1566002Z with:
+2026-10-16T09:49:53.1566452Z   repository: 2314291/2314291_Lab7_KiemThu
+2026-10-16T09:49:53.1570343Z   token: ***
+2026-10-16T09:49:53.1570783Z   ssh-strict: true
+2026-10-16T09:49:53.1571222Z   ssh-user: git
+2026-10-16T09:49:53.1571668Z   persist-credentials: true
+2026-10-16T09:49:53.1572157Z   clean: true
+2026-10-16T09:49:53.1572604Z   sparse-checkout-cone-mode: true
+2026-10-16T09:49:53.1573128Z   fetch-depth: 1
+2026-10-16T09:49:53.1573557Z   fetch-tags: false
+2026-10-16T09:49:53.1573991Z   show-progress: true
+2026-10-16T09:49:53.1574430Z   lfs: false
+2026-10-16T09:49:53.1574838Z   submodules: false
+2026-10-16T09:49:53.1575287Z   set-safe-directory: true
+2026-10-16T09:49:53.1575785Z   allow-unsafe-pr-checkout: false
+2026-10-16T09:49:53.1576558Z ##[endgroup]
+2026-10-16T09:49:53.2606536Z Syncing repository: 2314291/2314291_Lab7_KiemThu
+2026-10-16T09:49:53.2609362Z ##[group]Getting Git version info
+2026-10-16T09:49:53.2610721Z Working directory is '/home/runner/work/2314291_Lab7_KiemThu/2314291_Lab7_KiemThu'
+2026-10-16T09:49:53.2612531Z [command]/usr/bin/git version
+2026-10-16T09:49:53.2716817Z git version 2.55.0
+2026-10-16T09:49:53.2738969Z ##[endgroup]
+2026-10-16T09:49:53.2753735Z Temporarily overriding HOME='/home/runner/work/_temp/ad715864-9ecc-49f7-8a92-0d7b24c5d219' before making global git config changes
+2026-10-16T09:49:53.2756143Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-16T09:49:53.2759407Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/2314291_Lab7_KiemThu/2314291_Lab7_KiemThu
+2026-10-16T09:49:53.2819235Z Deleting the contents of '/home/runner/work/2314291_Lab7_KiemThu/2314291_Lab7_KiemThu'
+2026-10-16T09:49:53.2823914Z ##[group]Initializing the repository
+2026-10-16T09:49:53.2827882Z [command]/usr/bin/git init /home/runner/work/2314291_Lab7_KiemThu/2314291_Lab7_KiemThu
+2026-10-16T09:49:53.2938936Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-16T09:49:53.2940799Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-16T09:49:53.2941857Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-16T09:49:53.2942617Z hint: call:
+2026-10-16T09:49:53.2943066Z hint:
+2026-10-16T09:49:53.2943586Z hint: 	git config --global init.defaultBranch <name>
+2026-10-16T09:49:53.2944223Z hint:
+2026-10-16T09:49:53.2944815Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-16T09:49:53.2945784Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-16T09:49:53.2946543Z hint:
+2026-10-16T09:49:53.2946960Z hint: 	git branch -m <name>
+2026-10-16T09:49:53.2947448Z hint:
+2026-10-16T09:49:53.2948092Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-16T09:49:53.2954194Z Initialized empty Git repository in /home/runner/work/2314291_Lab7_KiemThu/2314291_Lab7_KiemThu/.git/
+2026-10-16T09:49:53.2964530Z [command]/usr/bin/git remote add origin https://github.com/2314291/2314291_Lab7_KiemThu
+2026-10-16T09:49:53.3012457Z ##[endgroup]
+2026-10-16T09:49:53.3013786Z ##[group]Disabling automatic garbage collection
+2026-10-16T09:49:53.3017362Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-16T09:49:53.3060965Z ##[endgroup]
+2026-10-16T09:49:53.3062184Z ##[group]Setting up auth
+2026-10-16T09:49:53.3063414Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T09:49:53.3095956Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T09:49:53.3478136Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T09:49:53.3529360Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T09:49:53.3775089Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T09:49:53.3817102Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T09:49:53.4073695Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-16T09:49:53.4116954Z ##[endgroup]
+2026-10-16T09:49:53.4117820Z ##[group]Fetching the repository
+2026-10-16T09:49:53.4129349Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +1d6093d821601a0effebc7070b9488ae072da5e9:refs/remotes/origin/main
+2026-10-16T09:49:53.7579439Z From https://github.com/2314291/2314291_Lab7_KiemThu
+2026-10-16T09:49:53.7581333Z  * [new ref]         1d6093d821601a0effebc7070b9488ae072da5e9 -> origin/main
+2026-10-16T09:49:53.7584768Z ##[endgroup]
+2026-10-16T09:49:53.7585658Z ##[group]Determining the checkout info
+2026-10-16T09:49:53.7587154Z ##[endgroup]
+2026-10-16T09:49:53.7593434Z [command]/usr/bin/git sparse-checkout disable
+2026-10-16T09:49:53.7648038Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-16T09:49:53.7681073Z ##[group]Checking out the ref
+2026-10-16T09:49:53.7685064Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-16T09:49:53.7751455Z Switched to a new branch 'main'
+2026-10-16T09:49:53.7757638Z branch 'main' set up to track 'origin/main'.
+2026-10-16T09:49:53.7763712Z ##[endgroup]
+2026-10-16T09:49:53.7805737Z [command]/usr/bin/git log -1 --format=%H
+2026-10-16T09:49:53.7831798Z 1d6093d821601a0effebc7070b9488ae072da5e9
+2026-10-16T09:49:53.8131059Z ##[group]Run actions/setup-python@v5
+2026-10-16T09:49:53.8131736Z with:
+2026-10-16T09:49:53.8132397Z   python-version: 3.11
+2026-10-16T09:49:53.8132917Z   check-latest: false
+2026-10-16T09:49:53.8136668Z   token: ***
+2026-10-16T09:49:53.8137141Z   update-environment: true
+2026-10-16T09:49:53.8137690Z   allow-prereleases: false
+2026-10-16T09:49:53.8138527Z   freethreaded: false
+2026-10-16T09:49:53.8139197Z ##[endgroup]
+2026-10-16T09:49:53.9485950Z ##[group]Installed versions
+2026-10-16T09:49:53.9600743Z (node:2286) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T09:49:53.9603127Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T09:49:53.9604564Z Successfully set up CPython (3.11.17)
+2026-10-16T09:49:53.9606236Z ##[endgroup]
+2026-10-16T09:49:53.9772159Z ##[group]Run python -m pip install --upgrade pip
+2026-10-16T09:49:53.9773077Z [36;1mpython -m pip install --upgrade pip[0m
+2026-10-16T09:49:53.9773816Z [36;1mpip install -r requirements.txt[0m
+2026-10-16T09:49:54.0083190Z shell: /usr/bin/bash -e {0}
+2026-10-16T09:49:54.0083999Z env:
+2026-10-16T09:49:54.0084720Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:54.0085861Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib/pkgconfig
+2026-10-16T09:49:54.0086974Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:54.0088015Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:54.0089264Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:54.0090307Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib
+2026-10-16T09:49:54.0091195Z ##[endgroup]
+2026-10-16T09:49:54.7204847Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages (26.2.1)
+2026-10-16T09:49:55.2757962Z Collecting requests==2.31.0 (from -r requirements.txt (line 1))
+2026-10-16T09:49:55.3208982Z   Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+2026-10-16T09:49:55.7201225Z Collecting coverage==7.4.0 (from -r requirements.txt (line 2))
+2026-10-16T09:49:55.7245591Z   Downloading coverage-7.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.1 kB)
+2026-10-16T09:49:55.7433266Z Collecting flake8==7.0.0 (from -r requirements.txt (line 3))
+2026-10-16T09:49:55.7475897Z   Downloading flake8-7.0.0-py2.py3-none-any.whl.metadata (3.8 kB)
+2026-10-16T09:49:55.8681601Z Collecting charset-normalizer<4,>=2 (from requests==2.31.0->-r requirements.txt (line 1))
+2026-10-16T09:49:55.8721365Z   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+2026-10-16T09:49:55.8952804Z Collecting idna<4,>=2.5 (from requests==2.31.0->-r requirements.txt (line 1))
+2026-10-16T09:49:55.8983550Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-10-16T09:49:55.9186478Z Collecting urllib3<3,>=1.21.1 (from requests==2.31.0->-r requirements.txt (line 1))
+2026-10-16T09:49:55.9215037Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+2026-10-16T09:49:55.9390688Z Collecting certifi>=2017.4.17 (from requests==2.31.0->-r requirements.txt (line 1))
+2026-10-16T09:49:55.9421124Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+2026-10-16T09:49:55.9542725Z Collecting mccabe<0.8.0,>=0.7.0 (from flake8==7.0.0->-r requirements.txt (line 3))
+2026-10-16T09:49:55.9570730Z   Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+2026-10-16T09:49:55.9697947Z Collecting pycodestyle<2.12.0,>=2.11.0 (from flake8==7.0.0->-r requirements.txt (line 3))
+2026-10-16T09:49:55.9725897Z   Downloading pycodestyle-2.11.1-py2.py3-none-any.whl.metadata (4.5 kB)
+2026-10-16T09:49:55.9861793Z Collecting pyflakes<3.3.0,>=3.2.0 (from flake8==7.0.0->-r requirements.txt (line 3))
+2026-10-16T09:49:55.9890133Z   Downloading pyflakes-3.2.0-py2.py3-none-any.whl.metadata (3.5 kB)
+2026-10-16T09:49:55.9965566Z Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+2026-10-16T09:49:56.0060919Z Downloading coverage-7.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (237 kB)
+2026-10-16T09:49:56.0123096Z Downloading flake8-7.0.0-py2.py3-none-any.whl (57 kB)
+2026-10-16T09:49:56.0204335Z Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+2026-10-16T09:49:56.0262126Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-10-16T09:49:56.0310565Z Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+2026-10-16T09:49:56.0357289Z Downloading pycodestyle-2.11.1-py2.py3-none-any.whl (31 kB)
+2026-10-16T09:49:56.0403093Z Downloading pyflakes-3.2.0-py2.py3-none-any.whl (62 kB)
+2026-10-16T09:49:56.0453592Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+2026-10-16T09:49:56.0504546Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+2026-10-16T09:49:56.1059075Z Installing collected packages: urllib3, pyflakes, pycodestyle, mccabe, idna, coverage, charset-normalizer, certifi, requests, flake8
+2026-10-16T09:49:56.6329613Z 
+2026-10-16T09:49:56.6333211Z Successfully installed certifi-2026.7.22 charset-normalizer-3.5.2 coverage-7.4.0 flake8-7.0.0 idna-3.20 mccabe-0.7.0 pycodestyle-2.11.1 pyflakes-3.2.0 requests-2.31.0 urllib3-2.8.0
+2026-10-16T09:49:56.6951156Z ##[group]Run flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+2026-10-16T09:49:56.6951753Z [36;1mflake8 . --count --select=E9,F63,F7,F82 --show-source --statistics[0m
+2026-10-16T09:49:56.7017260Z shell: /usr/bin/bash -e {0}
+2026-10-16T09:49:56.7017509Z env:
+2026-10-16T09:49:56.7017774Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:56.7018351Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib/pkgconfig
+2026-10-16T09:49:56.7018783Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:56.7019165Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:56.7019546Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:56.7019964Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib
+2026-10-16T09:49:56.7020292Z ##[endgroup]
+2026-10-16T09:49:57.1622041Z 0
+2026-10-16T09:49:57.1821856Z ##[group]Run coverage run -m unittest discover -s . -p "test_*.py"
+2026-10-16T09:49:57.1822415Z [36;1mcoverage run -m unittest discover -s . -p "test_*.py"[0m
+2026-10-16T09:49:57.1822763Z [36;1mcoverage report -m[0m
+2026-10-16T09:49:57.1823019Z [36;1mcoverage html -d coverage_html[0m
+2026-10-16T09:49:57.1823306Z [36;1mcoverage report --fail-under=80[0m
+2026-10-16T09:49:57.1887556Z shell: /usr/bin/bash -e {0}
+2026-10-16T09:49:57.1887821Z env:
+2026-10-16T09:49:57.1888095Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.1888886Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib/pkgconfig
+2026-10-16T09:49:57.1889348Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.1889758Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.1890183Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.1890652Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib
+2026-10-16T09:49:57.1890996Z ##[endgroup]
+2026-10-16T09:49:57.4704835Z ............
+2026-10-16T09:49:57.4705469Z ----------------------------------------------------------------------
+2026-10-16T09:49:57.4706084Z Ran 12 tests in 0.003s
+2026-10-16T09:49:57.4706327Z 
+2026-10-16T09:49:57.4706472Z OK
+2026-10-16T09:49:57.5707888Z Name                Stmts   Miss  Cover   Missing
+2026-10-16T09:49:57.5708894Z -------------------------------------------------
+2026-10-16T09:49:57.5709459Z gps_service.py          4      1    75%   11
+2026-10-16T09:49:57.5709836Z test_yummy_app.py      56      1    98%   95
+2026-10-16T09:49:57.5710178Z yummy_app.py           30      0   100%
+2026-10-16T09:49:57.5710525Z -------------------------------------------------
+2026-10-16T09:49:57.5710877Z TOTAL                  90      2    98%
+2026-10-16T09:49:57.6823027Z Wrote HTML report to coverage_html/index.html
+2026-10-16T09:49:57.7762085Z Name                Stmts   Miss  Cover
+2026-10-16T09:49:57.7762819Z ---------------------------------------
+2026-10-16T09:49:57.7763435Z gps_service.py          4      1    75%
+2026-10-16T09:49:57.7764002Z test_yummy_app.py      56      1    98%
+2026-10-16T09:49:57.7764535Z yummy_app.py           30      0   100%
+2026-10-16T09:49:57.7765050Z ---------------------------------------
+2026-10-16T09:49:57.7765568Z TOTAL                  90      2    98%
+2026-10-16T09:49:57.7936959Z ##[group]Run actions/upload-artifact@v4
+2026-10-16T09:49:57.7937268Z with:
+2026-10-16T09:49:57.7937481Z   name: YummyApp-Coverage-Report
+2026-10-16T09:49:57.7937736Z   path: coverage_html/
+2026-10-16T09:49:57.7937953Z   retention-days: 7
+2026-10-16T09:49:57.7938166Z   if-no-files-found: warn
+2026-10-16T09:49:57.7938589Z   compression-level: 6
+2026-10-16T09:49:57.7938806Z   overwrite: false
+2026-10-16T09:49:57.7939016Z   include-hidden-files: false
+2026-10-16T09:49:57.7939251Z env:
+2026-10-16T09:49:57.7939509Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.7939943Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib/pkgconfig
+2026-10-16T09:49:57.7940371Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.7940745Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.7941123Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.17/x64
+2026-10-16T09:49:57.7941546Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.17/x64/lib
+2026-10-16T09:49:57.7941869Z ##[endgroup]
+2026-10-16T09:49:57.9562960Z (node:2358) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T09:49:57.9563881Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T09:49:57.9638585Z With the provided path, there will be 10 files uploaded
+2026-10-16T09:49:57.9643956Z Artifact name is valid!
+2026-10-16T09:49:57.9644628Z Root directory input is valid!
+2026-10-16T09:49:58.3554762Z Beginning upload of artifact content to blob storage
+2026-10-16T09:49:58.3900787Z (node:2358) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-16T09:49:58.7026794Z Uploaded bytes 32786
+2026-10-16T09:49:58.7728212Z Finished uploading artifact content to blob storage!
+2026-10-16T09:49:58.7729387Z SHA256 digest of uploaded artifact zip is 207a50743917d06ca14468d83c49cf6ba64fd5cf6231aa7c60ad4ac31d7de096
+2026-10-16T09:49:58.7731489Z Finalizing artifact upload
+2026-10-16T09:49:59.0372915Z Artifact YummyApp-Coverage-Report.zip successfully finalized. Artifact ID 12038338078
+2026-10-16T09:49:59.0374704Z Artifact YummyApp-Coverage-Report has been successfully uploaded! Final size is 32786 bytes. Artifact ID is 12038338078
+2026-10-16T09:49:59.0379376Z Artifact download URL: https://github.com/2314291/2314291_Lab7_KiemThu/actions/runs/38883122258/artifacts/12038338078
+2026-10-16T09:49:59.0551664Z Post job cleanup.
+2026-10-16T09:49:59.1731373Z (node:2373) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-16T09:49:59.1732236Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-16T09:49:59.1920019Z Post job cleanup.
+2026-10-16T09:49:59.2818795Z [command]/usr/bin/git version
+2026-10-16T09:49:59.2849160Z git version 2.55.0
+2026-10-16T09:49:59.2893314Z Temporarily overriding HOME='/home/runner/work/_temp/39048e03-17e9-4888-bd78-90e3da310e11' before making global git config changes
+2026-10-16T09:49:59.2894807Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-16T09:49:59.2899830Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/2314291_Lab7_KiemThu/2314291_Lab7_KiemThu
+2026-10-16T09:49:59.2938023Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T09:49:59.2973557Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T09:49:59.3230469Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T09:49:59.3257966Z http.https://github.com/.extraheader
+2026-10-16T09:49:59.3268935Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-16T09:49:59.3326080Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T09:49:59.3585213Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T09:49:59.3627820Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T09:49:59.4046955Z Cleaning up orphan processes
+2026-10-16T09:49:59.4329116Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
